@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+    *{
+      margin: 0;
+      padding: 0;
+     background-color: hsl(212, 45%, 89%);
+    }
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.patch{
+  display: flex;
+  
+  align-items: centers;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+
+  
+  border-radius: 25px;
+  margin: 150px;
+  width: 400px;
+  height: 550px;
+  padding: 0;
+  box-shadow: 2px 5px 10px hsl(220, 15%, 55%);
+
+}
+p{
+  
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.p1{
+  font-weight: bolder;
+  font-size: 25px;
+  
+}
+.p2{
+  font-weight: 400;
+  font-size: 15px;
+}
+img{
+  width: 360px;
+  margin: 20px;
+  border-radius: 14px;
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="patch">
+      <img src="./images/image-qr-code.png" alt="qr-code">
+      <p class="p1">Improve your front-end 
+        <br> skills by building projects</p>
+      <p class="p2">scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+    </div>
+  </div>
+</body>
+
+</html>
